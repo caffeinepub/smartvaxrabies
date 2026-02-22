@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining all routes including the new /about route for home, registration, stray dogs, shop, events, community, and about pages wrapped in a Layout component.",
+  "frontend/src/components/Layout.tsx": "Main layout component with sticky header navigation including the new About Us link, SmartVaxRabies branding with logo, responsive mobile menu, and footer with Kerala branding and caffeine.ai attribution.",
+  "frontend/src/pages/Home.tsx": "Homepage with hero section featuring SmartVaxRabies branding, feature cards for all services, vaccination information section, stray dog care section, and Kerala-specific branding with generated dog images.",
+  "frontend/src/pages/Register.tsx": "User registration page with form for pet vaccination centre enrollment, including fields for personal details and Kerala vaccination centre selection with success confirmation.",
+  "frontend/src/pages/StrayDogSubmission.tsx": "Stray dog image upload page with file input, location and description fields, upload progress tracking using ExternalBlob, and success confirmation.",
+  "frontend/src/pages/StrayDogGallery.tsx": "Gallery page displaying all submitted stray dog images in a responsive grid with location, description, uploader name, and timestamp information.",
+  "frontend/src/pages/Shop.tsx": "Dog supplies shopping page with banner image and product grid displaying items fetched from backend with ProductCard components.",
+  "frontend/src/pages/Events.tsx": "Charity events page with banner image and event cards showing upcoming and past events sorted by date with registration links.",
+  "frontend/src/pages/Community.tsx": "Community chat page with banner image, scrollable message area, real-time message display, and input form for sending messages with auto-refresh.",
+  "frontend/src/components/ProductCard.tsx": "Reusable product card component displaying product image using ExternalBlob.getDirectURL(), name, description, formatted price in INR, and add to cart button.",
+  "frontend/src/components/EventCard.tsx": "Reusable event card component showing event title, formatted date/time, location, description, and registration link with visual distinction for past events.",
+  "frontend/src/components/ChatMessage.tsx": "Chat message component displaying sender principal (formatted and color-coded), timestamp, and message text in a styled bubble layout.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as all React Query operations are implemented directly in page components using useQuery and useMutation with the actor hook.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining green, bright, safe theme with emerald and teal colors for both light and dark modes, plus custom scrollbar styling.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with green color palette, custom border radius values, Inter font family, nature-inspired shadows, and custom animations for smooth interactions.",
+  "frontend/src/pages/About.tsx": "About Us page featuring creators Shreya Salu and Bella Ann Kurian from Excelsior English School with hero section, mission statement, creator profiles, and call-to-action sections using the green-themed design system."
+}

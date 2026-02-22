@@ -1,0 +1,44 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-new-about-us-page-at-route-about-that-prominently-features-the-creators-shreya-salu-and-bella-ann-kurian-from-excelsior-english-school",
+      "featureTitle": "Create a new About Us page at route '/about' that prominently features the creators: Shreya Salu and Bella Ann Kurian from Excelsior English School",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/pages/About.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-an-about-us-navigation-link-in-the-header-that-directs-users-to-the-new-about-us-page",
+      "featureTitle": "Add an 'About Us' navigation link in the header that directs users to the new About Us page",
+      "files": [
+        "frontend/src/components/Layout.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        
+        /* Light mode - Green, bright, safe theme */
+        --background: 0.98 0.02 145;
+        --foreground: 0.25 0.03 145;
+        --card: 1 0 0;
+        --card-foreground: 0.25 0.03 145;
+        --popover: 1 0 0;
+        --popover-foreground: 0.25 0.03 145;
+        
+        /* Primary: Vibrant emerald green */
+        --primary: 0.55 0.15 155;
+        --primary-foreground: 0.99 0 0;
+        
+        /* Secondary: Soft green */
+        --secondary: 0.95 0.04 145;
+        --secondary-foreground: 0.35 0.05 145;
+        
+        /* Muted: Light green tint */
+        --muted: 0.96 0.03 145;
+        --muted-foreground: 0.50 0.02 145;
+        
+        /* Accent: Bright teal */
+        --accent: 0.65 0.12 180;
+        --accent-foreground: 0.99 0 0;
+        
+        /* Success green */
+        --success: 0.60 0.14 150;
+        --success-foreground: 0.99 0 0;
+        
+        /* Warning */
+        --warning: 0.75 0.15 85;
+        --warning-foreground: 0.25 0.03 85;
+        
+        /* Destructive */
+        --destructive: 0.55 0.22 25;
+        --destructive-foreground: 0.99 0 0;
+        
+        /* Borders and inputs */
+        --border: 0.88 0.03 145;
+        --input: 0.88 0.03 145;
+        --ring: 0.55 0.15 155;
+        
+        /* Charts */
+        --chart-1: 0.60 0.14 150;
+        --chart-2: 0.65 0.12 180;
+        --chart-3: 0.70 0.10 165;
+        --chart-4: 0.55 0.15 140;
+        --chart-5: 0.75 0.08 175;
+    }
+
+    .dark {
+        /* Dark mode - Maintaining green theme with proper contrast */
+        --background: 0.20 0.03 145;
+        --foreground: 0.95 0.02 145;
+        --card: 0.25 0.03 145;
+        --card-foreground: 0.95 0.02 145;
+        --popover: 0.22 0.03 145;
+        --popover-foreground: 0.95 0.02 145;
+        
+        /* Primary: Bright emerald for dark mode */
+        --primary: 0.70 0.14 155;
+        --primary-foreground: 0.15 0.03 145;
+        
+        /* Secondary */
+        --secondary: 0.30 0.04 145;
+        --secondary-foreground: 0.95 0.02 145;
+        
+        /* Muted */
+        --muted: 0.28 0.03 145;
+        --muted-foreground: 0.65 0.03 145;
+        
+        /* Accent */
+        --accent: 0.60 0.12 180;
+        --accent-foreground: 0.95 0 0;
+        
+        /* Success */
+        --success: 0.65 0.13 150;
+        --success-foreground: 0.15 0.03 145;
+        
+        /* Warning */
+        --warning: 0.70 0.14 85;
+        --warning-foreground: 0.20 0.03 85;
+        
+        /* Destructive */
+        --destructive: 0.60 0.20 25;
+        --destructive-foreground: 0.95 0 0;
+        
+        /* Borders and inputs */
+        --border: 0.35 0.03 145;
+        --input: 0.32 0.03 145;
+        --ring: 0.65 0.12 155;
+        
+        /* Charts */
+        --chart-1: 0.65 0.13 150;
+        --chart-2: 0.60 0.12 180;
+        --chart-3: 0.70 0.10 165;
+        --chart-4: 0.58 0.14 140;
+        --chart-5: 0.72 0.08 175;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+    
+    /* Smooth scrolling */
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    /* Custom scrollbar for webkit browsers */
+    ::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        @apply bg-emerald-50;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        @apply bg-emerald-300 rounded-full;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        @apply bg-emerald-400;
+    }
+}

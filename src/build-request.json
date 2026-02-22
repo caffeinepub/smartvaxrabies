@@ -1,0 +1,57 @@
+{
+  "kind": "build_request",
+  "title": "Add About Us page featuring creators",
+  "projectName": "SmartVaxRabies",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a new About Us page at route '/about' that prominently features the creators: Shreya Salu and Bella Ann Kurian from Excelsior English School",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "ADD about page featuring creators Shreya Salu and Bella Ann Kurian from Excelsior English School."
+        ]
+      },
+      "acceptanceCriteria": [
+        "About Us page is accessible at /about route",
+        "Page displays both creator names: Shreya Salu and Bella Ann Kurian",
+        "Page mentions their affiliation with Excelsior English School",
+        "Page follows the existing app's green-themed design system"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Add an 'About Us' navigation link in the header that directs users to the new About Us page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ]
+      },
+      "acceptanceCriteria": [
+        "About Us link appears in the main navigation header alongside existing links",
+        "Link is visible on both desktop and mobile views",
+        "Clicking the link navigates to /about page",
+        "Link styling matches existing navigation items"
+      ]
+    }
+  ],
+  "constraints": [
+    "Follow the existing Kerala-focused green color theme",
+    "Maintain consistency with the current Layout component structure",
+    "Use TanStack Router for the new route definition"
+  ],
+  "nonGoals": [
+    "Adding additional pages beyond the About Us page",
+    "Modifying existing pages or features",
+    "Changing the backend or adding new backend functionality"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

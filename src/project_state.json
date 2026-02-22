@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "SmartVaxRabies web application with About Us page featuring creators Shreya Salu and Bella Ann Kurian from Excelsior English School",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-new-about-us-page-at-route-about-that-prominently-features-the-creators-shreya-salu-and-bella-ann-kurian-from-excelsior-english-school",
+      "title": "Create a new About Us page at route '/about' that prominently features the creators: Shreya Salu and Bella Ann Kurian from Excelsior English School",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-an-about-us-navigation-link-in-the-header-that-directs-users-to-the-new-about-us-page",
+      "title": "Add an 'About Us' navigation link in the header that directs users to the new About Us page",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Add About Us page with creator credits for Shreya Salu and Bella Ann Kurian from Excelsior English School",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "SmartVaxRabies",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
